@@ -1,0 +1,70 @@
+i am deanon
+  
+Обычно в git config --global user.name "salambrosalam" ##should write real name
+Обычно в git config --global user.email blablabla@gmail.com ##should write real email
+
+git config -l(Увидеть, подробности конфигурации)
+
+just added file(Untracked)
+
+>git add file.txt (Staged)
+
+>git commit -m "Version1" (Copy in local Repository)
+
+>git push (copy in Remote Repository)
+
+git log(show all commits)
+
+git log -1 -p (last commit and current changes)
+
+git checkout -- *anonymous.txt*(to prevent changes to last commit)
+
+git diff --staged (to check what will be changed)
+
+how to generate ssh pairs linux:
+
+ssh-keygen
+
+how to generate ssh pairs windows:
+
+ssh-keygen
+then copy public key
+set to the github
+then to switch from HTTPS to SSH use: git remote set-url origin *remote ssh name*
+
+----------------------------------------------------------------------------------
+
+BRANCHES
+
+To create new branch:
+>git branch *name of new branch*
+
+To switch on branch:
+>git checkout *name of branch* 
+
+To delete some branch:
+>git branch -d *name of branch*
+
+To create and switch:
+>git branch -b *name of new branch*
+
+To delete remote branch:
+>git push --delete *name of branch*
+
+To modify commit:
+>git commit --amend 
+
+To delete some commit:
+>git reset --soft HEAD~3(this command will delete 3 last commits)
+
+-----------------------------------------------------------------------------------
+
+GitHub Actions
+
+
+
+
+
+
+
+
